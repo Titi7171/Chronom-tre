@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    color: #fff;
+}
+
+#chronometre {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #999;
+    width: 400px
+}
+
+#time {
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px;
+    font-family: "Dancing Script", cursive;
+    
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    background-color: green;
+    color:#fff;
+    width: 31%;
+    border-radius: 5px;
+}
